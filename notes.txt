@@ -11,6 +11,13 @@ git add .
 git commit -m "Added demo.txt for pull request test"
 git push origin feature-branch
 
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Bestwinn/test.git
+git push -u origin main
 
 EXP 2:
 Exp 2 :
